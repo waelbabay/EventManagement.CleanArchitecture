@@ -1,0 +1,27 @@
+Sentiment;Message;language
+Positive;Très bon;French
+Positive;Very good;English
+Positive;Very nice;English
+Positive;Sehr gute;German
+Positive;molto bello;Italian
+Positive;Muy buen;Spanish
+Positive;on s'est bien amusé;French
+Positive;we had a lot of fun;English
+Positive;wir hatten viel Spaß;German
+Positive;ci siamo divertiti molto;Italian
+Positive;nos divertimos mucho;Spanish
+Positive;content, heureux, ravi;French
+Positive;content, happy, delighted;English
+Positive;zufrieden, glücklich, erfreut;German
+Positive;contento, felice, felice;Italian
+Positive;contento, feliz, encantado;Spanish
+Negative;triste, déçu, pas content;French
+Negative;sad, disappointed, not happy;English
+Negative;traurig, enttäuscht, nicht glücklich;German
+Negative;triste, deluso, non felice;Italian
+Negative;triste, decepcionado, no feliz;Spanish
+Negative;mauvais, mauvaise;French
+Negative;bad;English
+Negative;schlechte;German
+Negative;brutto,cattiva;Italian
+Negative;Mal,mala;Spanish

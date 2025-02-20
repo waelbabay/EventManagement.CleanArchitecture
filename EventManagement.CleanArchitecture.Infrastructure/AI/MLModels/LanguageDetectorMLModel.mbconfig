@@ -1,0 +1,249 @@
+﻿{
+  "Scenario": "Classification",
+  "DataSource": {
+    "Version": 3,
+    "EscapeCharacter": "\"",
+    "ReadMultiLines": false,
+    "KeepDiacritics": false,
+    "KeepPunctuations": false,
+    "AllowQuoting": false,
+    "Type": "TabularFile",
+    "FilePath": "C:\\Users\\waelb\\source\\repos\\01-DotNet\\TicketManagement.CleanArchitecture\\TrainingData\\languageDetection.csv",
+    "Delimiter": ";",
+    "DecimalMarker": ".",
+    "HasHeader": true,
+    "ColumnProperties": [
+      {
+        "ColumnName": "Language",
+        "ColumnPurpose": "Label",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Message",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      }
+    ]
+  },
+  "Environment": {
+    "Type": "LocalCPU",
+    "Version": 1
+  },
+  "RunHistory": {
+    "Version": 3,
+    "Type": "Result",
+    "Trials": [
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.56666666666666665,
+        "RuntimeInSeconds": 0.182,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e5",
+          "e0": {
+            "InputColumnName": "Message",
+            "OutputColumnName": "Message"
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Message"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e2": {
+            "OutputColumnName": "Language",
+            "InputColumnName": "Language",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e3": {
+            "L1Regularization": 0.03125,
+            "L2Regularization": 0.03125,
+            "LabelColumnName": "Language",
+            "FeatureColumnName": "Features"
+          },
+          "e5": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.56666666666666665,
+        "RuntimeInSeconds": 0.177,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e5",
+          "e0": {
+            "InputColumnName": "Message",
+            "OutputColumnName": "Message"
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Message"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e2": {
+            "OutputColumnName": "Language",
+            "InputColumnName": "Language",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e3": {
+            "L1Regularization": 0.03125,
+            "L2Regularization": 0.03125,
+            "LabelColumnName": "Language",
+            "FeatureColumnName": "Features"
+          },
+          "e5": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.56666666666666665,
+        "RuntimeInSeconds": 0.212,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e5",
+          "e0": {
+            "InputColumnName": "Message",
+            "OutputColumnName": "Message"
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Message"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e2": {
+            "OutputColumnName": "Language",
+            "InputColumnName": "Language",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e3": {
+            "L1Regularization": 0.03455773,
+            "L2Regularization": 0.03125,
+            "LabelColumnName": "Language",
+            "FeatureColumnName": "Features"
+          },
+          "e5": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.56666666666666665,
+        "RuntimeInSeconds": 0.202,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e5",
+          "e0": {
+            "InputColumnName": "Message",
+            "OutputColumnName": "Message"
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Message"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e2": {
+            "OutputColumnName": "Language",
+            "InputColumnName": "Language",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e3": {
+            "L1Regularization": 0.03125,
+            "L2Regularization": 0.03716416,
+            "LabelColumnName": "Language",
+            "FeatureColumnName": "Features"
+          },
+          "e5": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.56666666666666665,
+        "RuntimeInSeconds": 0.185,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e5",
+          "e0": {
+            "InputColumnName": "Message",
+            "OutputColumnName": "Message"
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Message"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e2": {
+            "OutputColumnName": "Language",
+            "InputColumnName": "Language",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e3": {
+            "L1Regularization": 0.044581715,
+            "L2Regularization": 0.03125,
+            "LabelColumnName": "Language",
+            "FeatureColumnName": "Features"
+          },
+          "e5": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          }
+        }
+      }
+    ],
+    "Estimators": {
+      "e0": "FeaturizeText",
+      "e1": "Concatenate",
+      "e2": "MapValueToKey",
+      "e3": "LbfgsLogisticRegressionOva",
+      "e4": "LbfgsMaximumEntropyMulti",
+      "e5": "MapKeyToValue"
+    },
+    "Schema": "e0 * e1 * e2 * (e3 + e4) * e5",
+    "MetricName": "MacroAccuracy",
+    "ModelFilePath": "C:\\Users\\waelb\\source\\repos\\01-DotNet\\TicketManagement.CleanArchitecture\\TicketManagement.CleanArchitecture.Infrastructure\\AI\\MLModels\\LanguageDetectorMLModel.mlnet"
+  },
+  "Type": "TrainingConfig",
+  "Version": 5,
+  "TrainingOption": {
+    "Version": 2,
+    "Subsampling": false,
+    "Tuner": "eci-cfo",
+    "Type": "ClassificationTrainingOption",
+    "TrainingTime": 20,
+    "OptimizeMetric": "MacroAccuracy",
+    "LabelColumn": "Language",
+    "AvailableTrainers": [
+      "LBFGS"
+    ],
+    "ValidationOption": {
+      "Version": 0,
+      "Type": "CrossValidationValidationOption",
+      "NumberOfFolds": 5
+    }
+  }
+}

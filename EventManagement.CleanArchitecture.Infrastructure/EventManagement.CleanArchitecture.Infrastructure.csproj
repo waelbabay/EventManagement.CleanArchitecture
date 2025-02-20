@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <NoWarn>$(NoWarn);SKEXP0001;SKEXP0010</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Ater.DeepSeek.Core" Version="1.1.0" />
+    <PackageReference Include="Azure.AI.TextAnalytics" Version="5.3.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="9.0.2" />
+    <PackageReference Include="Microsoft.ML" Version="4.0.1" />
+    <PackageReference Include="Microsoft.ML.FastTree" Version="4.0.0" />
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.37.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EventManagement.CleanArchitecture.Application\EventManagement.CleanArchitecture.Application.csproj" />
+  </ItemGroup>
+</Project>
