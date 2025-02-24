@@ -41,8 +41,8 @@ Instead of using Azure AI, the language and sentiment detection service can be r
 1. Clone the repository:
    ```sh
    git clone https://github.com/waelbabay/EventManagement.CleanArchitecture.git
-   cd EventManagement
+   cd EventManagement.CleanArchitecture
   
 2. Run The application
    ```sh
-   dotnet run --project src/EventManagement.API
+   dotnet run --project src/EventManagement.CleanArchitecture.API
