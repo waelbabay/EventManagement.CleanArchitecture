@@ -1,5 +1,4 @@
 using EventManagement.CleanArchitecture.Api;
-using Microsoft.AspNetCore.HttpLogging;
 using Serilog;
 
 Log.Logger = new LoggerConfiguration()
@@ -28,6 +27,6 @@ app.UseSerilogRequestLogging();
 
 builder.Configuration.AddUserSecrets<Program>();
 
-//await app.ResetDatabaseAsync();
+await app.ResetDatabaseAsync();
 
 app.Run();
