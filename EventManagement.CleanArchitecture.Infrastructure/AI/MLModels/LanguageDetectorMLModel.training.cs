@@ -13,7 +13,7 @@ namespace EventManagement_CleanArchitecture_Infrastructure
 {
     public partial class LanguageDetectorMLModel
     {
-        public const string RetrainFilePath =  @"C:\Users\waelb\source\repos\01-DotNet\EventManagement.CleanArchitecture\TrainingData\languageDetection.csv";
+        public const string RetrainFilePath =  @"C:\Users\waelb\source\repos\01-DotNet\dot-net-building-apps-machine-learning\02\demos\before\TrainingData\languageDetection.csv";
         public const char RetrainSeparatorChar = ';';
         public const bool RetrainHasHeader =  true;
         public const bool RetrainAllowQuoting =  false;

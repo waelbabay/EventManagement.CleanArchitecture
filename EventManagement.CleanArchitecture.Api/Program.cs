@@ -23,6 +23,8 @@ var app = builder
         .ConfigureServices()
         .ConfigurePipeline();
 
+app.UseStaticFiles();
+
 app.UseSerilogRequestLogging();
 
 builder.Configuration.AddUserSecrets<Program>();

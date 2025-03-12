@@ -21,7 +21,7 @@ The **Infrastructure** layer integrates with **Azure AI Text Analysis** to detec
 
 ## AI-Powered Event Image Generation
 
-When an event is created, the application can generate a relevant image based on the event's description using **Azure OpenAI** and **DALL·E 3**. This ensures visually appealing content without requiring manual image uploads.
+When an event is created, the application can generate a relevant image based on the event's description using **Semantic Kernel** , **Azure OpenAI** and **DALL·E 3**. This ensures visually appealing content without requiring manual image uploads.
 
 ## Custom ML Model with ML.NET
 

@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EventManagement.CleanArchitecture.Persistence.Migrations
 {
     [DbContext(typeof(EventManagementDbContext))]
-    [Migration("20250216101049_init")]
+    [Migration("20250228102852_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -181,7 +181,7 @@ namespace EventManagement.CleanArchitecture.Persistence.Migrations
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Date = new DateTime(2025, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "The best tech conference in the world",
-                            ImageUrl = "",
+                            ImageUrl = "https://localhost:7258/images/1d626835-fd28-4c2e-8520-81f995697d73.png",
                             Name = "Techorama Belgium",
                             Price = 400,
                             Speaker = "Many"
@@ -193,7 +193,7 @@ namespace EventManagement.CleanArchitecture.Persistence.Migrations
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Date = new DateTime(2025, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "The critics are over the moon and so will you after you've watched this sing and dance extravaganza written by Nick Sailor, the man from 'My dad and sister'.",
-                            ImageUrl = "",
+                            ImageUrl = "https://localhost:7258/images/8a540a7a-67ee-4064-8821-988d2a773204.png",
                             Name = "To the Moon and Back",
                             Price = 135,
                             Speaker = "Nick Sailor"

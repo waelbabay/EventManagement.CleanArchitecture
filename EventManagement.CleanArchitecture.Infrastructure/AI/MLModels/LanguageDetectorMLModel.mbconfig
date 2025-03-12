@@ -8,7 +8,7 @@
     "KeepPunctuations": false,
     "AllowQuoting": false,
     "Type": "TabularFile",
-    "FilePath": "C:\\Users\\waelb\\source\\repos\\01-DotNet\\TicketManagement.CleanArchitecture\\TrainingData\\languageDetection.csv",
+    "FilePath": "C:\\Users\\waelb\\source\\repos\\01-DotNet\\dot-net-building-apps-machine-learning\\02\\demos\\before\\TrainingData\\languageDetection.csv",
     "Delimiter": ";",
     "DecimalMarker": ".",
     "HasHeader": true,
@@ -43,8 +43,8 @@
         "Version": 1,
         "Type": "Trial",
         "TrainerName": "LbfgsLogisticRegressionOva",
-        "Score": 0.56666666666666665,
-        "RuntimeInSeconds": 0.182,
+        "Score": 0.84444444444444444,
+        "RuntimeInSeconds": 0.139,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e5",
           "e0": {
@@ -78,8 +78,8 @@
         "Version": 1,
         "Type": "Trial",
         "TrainerName": "LbfgsLogisticRegressionOva",
-        "Score": 0.56666666666666665,
-        "RuntimeInSeconds": 0.177,
+        "Score": 0.84444444444444444,
+        "RuntimeInSeconds": 0.131,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e5",
           "e0": {
@@ -113,43 +113,8 @@
         "Version": 1,
         "Type": "Trial",
         "TrainerName": "LbfgsLogisticRegressionOva",
-        "Score": 0.56666666666666665,
-        "RuntimeInSeconds": 0.212,
-        "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e5",
-          "e0": {
-            "InputColumnName": "Message",
-            "OutputColumnName": "Message"
-          },
-          "e1": {
-            "InputColumnNames": [
-              "Message"
-            ],
-            "OutputColumnName": "Features"
-          },
-          "e2": {
-            "OutputColumnName": "Language",
-            "InputColumnName": "Language",
-            "AddKeyValueAnnotationsAsText": false
-          },
-          "e3": {
-            "L1Regularization": 0.03455773,
-            "L2Regularization": 0.03125,
-            "LabelColumnName": "Language",
-            "FeatureColumnName": "Features"
-          },
-          "e5": {
-            "OutputColumnName": "PredictedLabel",
-            "InputColumnName": "PredictedLabel"
-          }
-        }
-      },
-      {
-        "Version": 1,
-        "Type": "Trial",
-        "TrainerName": "LbfgsLogisticRegressionOva",
-        "Score": 0.56666666666666665,
-        "RuntimeInSeconds": 0.202,
+        "Score": 0.84444444444444444,
+        "RuntimeInSeconds": 0.132,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e5",
           "e0": {
@@ -169,7 +134,7 @@
           },
           "e3": {
             "L1Regularization": 0.03125,
-            "L2Regularization": 0.03716416,
+            "L2Regularization": 0.03125,
             "LabelColumnName": "Language",
             "FeatureColumnName": "Features"
           },
@@ -183,8 +148,8 @@
         "Version": 1,
         "Type": "Trial",
         "TrainerName": "LbfgsLogisticRegressionOva",
-        "Score": 0.56666666666666665,
-        "RuntimeInSeconds": 0.185,
+        "Score": 0.84444444444444444,
+        "RuntimeInSeconds": 0.132,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e5",
           "e0": {
@@ -203,7 +168,42 @@
             "AddKeyValueAnnotationsAsText": false
           },
           "e3": {
-            "L1Regularization": 0.044581715,
+            "L1Regularization": 0.032954246,
+            "L2Regularization": 0.03125,
+            "LabelColumnName": "Language",
+            "FeatureColumnName": "Features"
+          },
+          "e5": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.84444444444444444,
+        "RuntimeInSeconds": 0.131,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e5",
+          "e0": {
+            "InputColumnName": "Message",
+            "OutputColumnName": "Message"
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Message"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e2": {
+            "OutputColumnName": "Language",
+            "InputColumnName": "Language",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e3": {
+            "L1Regularization": 0.03125,
             "L2Regularization": 0.03125,
             "LabelColumnName": "Language",
             "FeatureColumnName": "Features"
@@ -225,7 +225,7 @@
     },
     "Schema": "e0 * e1 * e2 * (e3 + e4) * e5",
     "MetricName": "MacroAccuracy",
-    "ModelFilePath": "C:\\Users\\waelb\\source\\repos\\01-DotNet\\TicketManagement.CleanArchitecture\\TicketManagement.CleanArchitecture.Infrastructure\\AI\\MLModels\\LanguageDetectorMLModel.mlnet"
+    "ModelFilePath": "C:\\Users\\waelb\\source\\repos\\01-DotNet\\EventManagement.CleanArchitecture\\EventManagement.CleanArchitecture.Infrastructure\\AI\\MLModels\\LanguageDetectorMLModel.mlnet"
   },
   "Type": "TrainingConfig",
   "Version": 5,
@@ -234,7 +234,7 @@
     "Subsampling": false,
     "Tuner": "eci-cfo",
     "Type": "ClassificationTrainingOption",
-    "TrainingTime": 20,
+    "TrainingTime": 30,
     "OptimizeMetric": "MacroAccuracy",
     "LabelColumn": "Language",
     "AvailableTrainers": [

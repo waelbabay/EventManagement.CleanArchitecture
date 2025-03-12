@@ -102,7 +102,7 @@ namespace EventManagement.CleanArchitecture.Persistence
                 Speaker = "Many",
                 Date = new DateTime(2025, 2, 2),
                 Description = "The best tech conference in the world",
-                ImageUrl = string.Empty,
+                ImageUrl = "https://localhost:7258/images/1d626835-fd28-4c2e-8520-81f995697d73.png",
                 CategoryId = conferenceGuid
             });
 
@@ -114,7 +114,7 @@ namespace EventManagement.CleanArchitecture.Persistence
                 Speaker = "Nick Sailor",
                 Date = new DateTime(2025, 2, 2),
                 Description = "The critics are over the moon and so will you after you've watched this sing and dance extravaganza written by Nick Sailor, the man from 'My dad and sister'.",
-                ImageUrl = string.Empty,
+                ImageUrl = "https://localhost:7258/images/8a540a7a-67ee-4064-8821-988d2a773204.png",
                 CategoryId = musicalGuid
             });
         }
